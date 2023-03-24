@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+#
+# This source code is licensed under the MIT license found in the
+# LICENSE file in the root directory of this source tree.
+
 """
 This file offers access to functions used during the development of the article
     A Stratified Analysis of Bayesian Optimization Methods
@@ -24,7 +30,7 @@ Each function is also tagged with a list of relevant classifiers:
   oscillatory - A function with a general trend and an short range oscillatory component.
   discrete - A function which can only take discrete values.
   unimodal - A function with a single local minimum, or no local minimum and only a minimum on the boundary.
-  
+
 multimodal - A function with multiple local minimum
   bound_min - A function with its minimum on the boundary.
   multi_min - A function which takes its minimum value at multiple locations.
